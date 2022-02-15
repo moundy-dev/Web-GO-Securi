@@ -2,9 +2,6 @@
   background-color: black;
 }
 
-* {
-  color: white;
-}
 img {
   width: 200px;
   height: 200px;
@@ -14,11 +11,24 @@ img {
   flex-wrap: nowrap;
   justify-content: space-between;
 }
-ul {
+nav {
   list-style: none;
-  text-align: center;
+  color: #379ec1;
+  margin: 0 auto; /* centrage horizontal */
+  width: 500px;
 }
 header {
   text-align: center;
   color: #659224;
+}
+.titre {
+  color: #379ec1;
+}
+#checkboxes label {
+  float: center;
+}
+#checkboxes ul {
+  margin: 0;
+  list-style: none;
+  vertical-align: center;
 }
