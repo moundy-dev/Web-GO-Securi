@@ -24,9 +24,6 @@ header {
 .titre {
   color: #379ec1;
 }
-#checkboxes label {
-  float: center;
-}
 #checkboxes ul {
   margin: 0;
   list-style: none;
